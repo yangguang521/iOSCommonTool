@@ -1,0 +1,6 @@
+module Pods_iOSCommonTool {
+  umbrella header "Pods-iOSCommonTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
