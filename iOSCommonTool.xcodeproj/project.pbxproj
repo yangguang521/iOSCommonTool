@@ -22,6 +22,9 @@
 		CCC20D75256CFC4A0063845A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC20D74256CFC4A0063845A /* BaseViewController.swift */; };
 		CCC20D7F256D01380063845A /* FileManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC20D7D256D01370063845A /* FileManagerController.swift */; };
 		CCC20D80256D01380063845A /* FileManagerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC20D7E256D01380063845A /* FileManagerController.xib */; };
+		CCF1B409257A2AA4009E1237 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1B408257A2AA4009E1237 /* Logger.swift */; };
+		CCF1B413257A2BC3009E1237 /* LoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF1B411257A2BC3009E1237 /* LoggerViewController.swift */; };
+		CCF1B414257A2BC3009E1237 /* LoggerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF1B412257A2BC3009E1237 /* LoggerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		CCC20D74256CFC4A0063845A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CCC20D7D256D01370063845A /* FileManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerController.swift; sourceTree = "<group>"; };
 		CCC20D7E256D01380063845A /* FileManagerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileManagerController.xib; sourceTree = "<group>"; };
+		CCF1B408257A2AA4009E1237 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		CCF1B411257A2BC3009E1237 /* LoggerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerViewController.swift; sourceTree = "<group>"; };
+		CCF1B412257A2BC3009E1237 /* LoggerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoggerViewController.xib; sourceTree = "<group>"; };
 		FAF1AD19863819B7D60272AF /* libPods-iOSCommonTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSCommonTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -168,6 +174,7 @@
 		CCC20D5F256CF8390063845A /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				CCF1B407257A2A8E009E1237 /* Logger */,
 				CCC20D60256CF8390063845A /* DarkMode */,
 			);
 			path = Component;
@@ -187,6 +194,7 @@
 			children = (
 				CCC20D74256CFC4A0063845A /* BaseViewController.swift */,
 				CCC20D69256CFC060063845A /* DarkMode */,
+				CCF1B410257A2B9A009E1237 /* Logger */,
 				CCC20D7C256D01100063845A /* FileManager */,
 			);
 			path = Controller;
@@ -208,6 +216,23 @@
 				CCC20D7E256D01380063845A /* FileManagerController.xib */,
 			);
 			path = FileManager;
+			sourceTree = "<group>";
+		};
+		CCF1B407257A2A8E009E1237 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1B408257A2AA4009E1237 /* Logger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		CCF1B410257A2B9A009E1237 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				CCF1B411257A2BC3009E1237 /* LoggerViewController.swift */,
+				CCF1B412257A2BC3009E1237 /* LoggerViewController.xib */,
+			);
+			path = Logger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +341,7 @@
 			files = (
 				CCC20D29256CF3CC0063845A /* LaunchScreen.storyboard in Resources */,
 				CCC20D26256CF3CC0063845A /* Assets.xcassets in Resources */,
+				CCF1B414257A2BC3009E1237 /* LoggerViewController.xib in Resources */,
 				CCC20D6D256CFC360063845A /* DarkModeController.xib in Resources */,
 				CCC20D24256CF3C80063845A /* Main.storyboard in Resources */,
 				CCC20D80256D01380063845A /* FileManagerController.xib in Resources */,
@@ -372,9 +398,11 @@
 				CCC20D7F256D01380063845A /* FileManagerController.swift in Sources */,
 				CCC20D6C256CFC360063845A /* DarkModeController.swift in Sources */,
 				CCC20D63256CF84E0063845A /* UIColor.swift in Sources */,
+				CCF1B413257A2BC3009E1237 /* LoggerViewController.swift in Sources */,
 				CCC20D1D256CF3C80063845A /* AppDelegate.swift in Sources */,
 				CCC20D64256CF84E0063845A /* Util.swift in Sources */,
 				CCC20D75256CFC4A0063845A /* BaseViewController.swift in Sources */,
+				CCF1B409257A2AA4009E1237 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

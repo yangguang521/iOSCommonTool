@@ -11,7 +11,7 @@ class ViewController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    fileprivate let titlesArray = ["暗黑模式", "文件系统", "指纹面容识别",]
+    fileprivate let titlesArray = ["暗黑模式", "Logger输出", "文件系统", "指纹面容识别",]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,6 +70,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         case 0:
             controller = DarkModeController()
         case 1:
+            controller = LoggerViewController()
+        case 2:
             controller = FileManagerController()
         default:
             controller = nil
