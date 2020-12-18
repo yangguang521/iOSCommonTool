@@ -15,6 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         print("didFinishLaunchingWithOptions!")
+        print("device-\(UIScreen.main)")
+        let infoDic = Bundle.main.infoDictionary
+        print("App---\(infoDic?["CFBundleIdentifier"])---\(infoDic?["CFBundleDisplayName"])---\(infoDic?["CFBundleName"])")
+        
+        #if DEBUG
+        print("DEBUG!!!!")
+        #else
+        print("Release!!!!")
+        #endif
+        
         
         return true
     }

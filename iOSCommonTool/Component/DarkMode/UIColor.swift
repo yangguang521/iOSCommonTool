@@ -38,6 +38,8 @@ extension UIColor {
             let dynamicColor = UIColor.init { (traitCollection) -> UIColor in
                 if traitCollection.userInterfaceStyle == .dark {
                     return darkModeColor
+                }else if traitCollection.userInterfaceStyle == .unspecified {
+                    return .purple
                 }
                 return lightModeColor
             }

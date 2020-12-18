@@ -12,6 +12,7 @@ target 'iOSCommonTool' do
      pod 'SnapKit'
      pod 'Moya'
      pod 'ObjectMapper'
+     pod 'MBProgressHUD'
      
 end
 

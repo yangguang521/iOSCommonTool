@@ -4,10 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>iOSCommonTool.xcscheme_^#shared#^_</key>
+		<key>iOSCommonTool-DEV_Debug.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
+		</dict>
+		<key>iOSCommonTool-PRE_Release.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>iOSCommonTool-SIT_Debug.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>iOSCommonTool.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CCC20D18256CF3C80063845A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCC20D2E256CF3CC0063845A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCC20D39256CF3CD0063845A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
