@@ -11,7 +11,7 @@ class ViewController: BaseViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    fileprivate let titlesArray = ["暗黑模式", "Logger输出", "字体", "文件系统", "指纹面容识别",]
+    fileprivate let titlesArray = ["暗黑模式", "Logger输出", "环境选择", "字体", "Cell移动换行", "文件系统", "指纹面容识别",]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +24,6 @@ class ViewController: BaseViewController {
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "\(UITableViewCell.self)")
         
     }
-    
-    
 }
 
 
@@ -68,13 +66,26 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         switch indexPath.row {
         case 0:
+            ///暗黑模式
             controller = DarkModeController()
         case 1:
+            ///Logger输出
             controller = LoggerViewController()
         case 2:
-            controller = FontViewController()
+            ///"环境选择"
+            controller = EnvironmentViewController()
         case 3:
+            ///"字体"
+            controller = FontViewController()
+        case 4:
+            ///Cell移动换行
+            controller = HomeConfigurationController()
+        case 5:
+            ///文件系统
             controller = FileManagerController()
+        case 6:
+            ///指纹面容识别
+            controller = HomeConfigurationController()
         default:
             controller = nil
         }

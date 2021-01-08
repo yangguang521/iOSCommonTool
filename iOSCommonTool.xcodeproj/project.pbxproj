@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7A02A2D8261DA8F8C8341C94 /* libPods-iOSCommonTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF1AD19863819B7D60272AF /* libPods-iOSCommonTool.a */; };
+		CC81D2EE25A857F000465659 /* HomeSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81D2EA25A857F000465659 /* HomeSectionType.swift */; };
+		CC81D2EF25A857F000465659 /* HomeConfigurationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81D2EB25A857F000465659 /* HomeConfigurationController.swift */; };
+		CC81D2F025A857F000465659 /* HomeConfigurationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81D2EC25A857F000465659 /* HomeConfigurationModel.swift */; };
+		CC81D2F125A857F000465659 /* HomeConfigurationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81D2ED25A857F000465659 /* HomeConfigurationCell.swift */; };
+		CC81D2FA25A8595C00465659 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81D2F925A8595C00465659 /* Device.swift */; };
 		CC8F5149257F6ED5006FA98B /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F5148257F6ED5006FA98B /* Environment.swift */; };
 		CC8F5150257F7283006FA98B /* EnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F514E257F7283006FA98B /* EnvironmentViewController.swift */; };
 		CC8F5151257F7283006FA98B /* EnvironmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC8F514F257F7283006FA98B /* EnvironmentViewController.xib */; };
@@ -55,12 +60,20 @@
 		46FC87567CF5A4FDD371E63B /* Pods-iOSCommonTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCommonTool.debug.xcconfig"; path = "Target Support Files/Pods-iOSCommonTool/Pods-iOSCommonTool.debug.xcconfig"; sourceTree = "<group>"; };
 		70A4117459ED9B91AD9EBFB8 /* Pods-iOSCommonTool.dev_debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCommonTool.dev_debug.xcconfig"; path = "Target Support Files/Pods-iOSCommonTool/Pods-iOSCommonTool.dev_debug.xcconfig"; sourceTree = "<group>"; };
 		A478D0F013A13A604EBC6855 /* Pods-iOSCommonTool.per_release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSCommonTool.per_release.xcconfig"; path = "Target Support Files/Pods-iOSCommonTool/Pods-iOSCommonTool.per_release.xcconfig"; sourceTree = "<group>"; };
+		CC81D2EA25A857F000465659 /* HomeSectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSectionType.swift; sourceTree = "<group>"; };
+		CC81D2EB25A857F000465659 /* HomeConfigurationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeConfigurationController.swift; sourceTree = "<group>"; };
+		CC81D2EC25A857F000465659 /* HomeConfigurationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeConfigurationModel.swift; sourceTree = "<group>"; };
+		CC81D2ED25A857F000465659 /* HomeConfigurationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeConfigurationCell.swift; sourceTree = "<group>"; };
+		CC81D2F925A8595C00465659 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		CC8F5148257F6ED5006FA98B /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		CC8F514E257F7283006FA98B /* EnvironmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewController.swift; sourceTree = "<group>"; };
 		CC8F514F257F7283006FA98B /* EnvironmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnvironmentViewController.xib; sourceTree = "<group>"; };
 		CC8F5282258B47A4006FA98B /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		CC8F528B258B537B006FA98B /* FontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewController.swift; sourceTree = "<group>"; };
 		CC8F528C258B537B006FA98B /* FontViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontViewController.xib; sourceTree = "<group>"; };
+		CC9DC0D72590511F00C5D313 /* DebugSettings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DebugSettings.bundle; sourceTree = "<group>"; };
+		CC9DC0DC2590517C00C5D313 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		CC9DC0DD2590517D00C5D313 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		CCC20D19256CF3C80063845A /* iOSCommonTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCommonTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC20D1C256CF3C80063845A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC20D20256CF3C80063845A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,10 +147,37 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CC4C8A3C25A43AF10063FF56 /* TouchFaceID */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TouchFaceID;
+			sourceTree = "<group>";
+		};
+		CC81D2E925A857F000465659 /* MoveCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC81D2EB25A857F000465659 /* HomeConfigurationController.swift */,
+				CC81D2ED25A857F000465659 /* HomeConfigurationCell.swift */,
+				CC81D2EA25A857F000465659 /* HomeSectionType.swift */,
+				CC81D2EC25A857F000465659 /* HomeConfigurationModel.swift */,
+			);
+			path = MoveCell;
+			sourceTree = "<group>";
+		};
+		CC81D2F825A8594D00465659 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				CC81D2F925A8595C00465659 /* Device.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
 		CC8F5147257F6EAA006FA98B /* VariableEnvironment */ = {
 			isa = PBXGroup;
 			children = (
 				CC8F5148257F6ED5006FA98B /* Environment.swift */,
+				CC9DC0D72590511F00C5D313 /* DebugSettings.bundle */,
 			);
 			path = VariableEnvironment;
 			sourceTree = "<group>";
@@ -226,6 +266,7 @@
 		CCC20D5F256CF8390063845A /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				CC81D2F825A8594D00465659 /* Device */,
 				CC8F5281258B4774006FA98B /* Font */,
 				CC8F5147257F6EAA006FA98B /* VariableEnvironment */,
 				CCF1B407257A2A8E009E1237 /* Logger */,
@@ -248,10 +289,12 @@
 			children = (
 				CCC20D74256CFC4A0063845A /* BaseViewController.swift */,
 				CC8F528A258B5365006FA98B /* Font */,
+				CC81D2E925A857F000465659 /* MoveCell */,
 				CCC20D69256CFC060063845A /* DarkMode */,
 				CCF1B410257A2B9A009E1237 /* Logger */,
 				CC8F514D257F7264006FA98B /* Environment */,
 				CCC20D7C256D01100063845A /* FileManager */,
+				CC4C8A3C25A43AF10063FF56 /* TouchFaceID */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -302,6 +345,7 @@
 				CCC20D15256CF3C80063845A /* Sources */,
 				CCC20D16256CF3C80063845A /* Frameworks */,
 				CCC20D17256CF3C80063845A /* Resources */,
+				CC9DC0E42590A75900C5D313 /* [Shell] Settings Bundle */,
 			);
 			buildRules = (
 			);
@@ -377,6 +421,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = CCC20D10256CF3C80063845A;
 			productRefGroup = CCC20D1A256CF3C80063845A /* Products */;
@@ -445,6 +490,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CC9DC0E42590A75900C5D313 /* [Shell] Settings Bundle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Shell] Settings Bundle";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ ${CONFIGURATION} = \"Debug\" ]; then\ncp -r ${PROJECT_DIR}/${PROJECT_NAME}/Component/VariableEnvironment/DebugSettings.bundle ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\nfi\n\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -455,13 +518,18 @@
 				CC8F5150257F7283006FA98B /* EnvironmentViewController.swift in Sources */,
 				CC8F528D258B537D006FA98B /* FontViewController.swift in Sources */,
 				CCC20D21256CF3C80063845A /* ViewController.swift in Sources */,
+				CC81D2FA25A8595C00465659 /* Device.swift in Sources */,
 				CCC20D7F256D01380063845A /* FileManagerController.swift in Sources */,
 				CCC20D6C256CFC360063845A /* DarkModeController.swift in Sources */,
+				CC81D2EF25A857F000465659 /* HomeConfigurationController.swift in Sources */,
 				CCC20D63256CF84E0063845A /* UIColor.swift in Sources */,
+				CC81D2F125A857F000465659 /* HomeConfigurationCell.swift in Sources */,
 				CCF1B413257A2BC3009E1237 /* LoggerViewController.swift in Sources */,
 				CCC20D1D256CF3C80063845A /* AppDelegate.swift in Sources */,
+				CC81D2F025A857F000465659 /* HomeConfigurationModel.swift in Sources */,
 				CCC20D64256CF84E0063845A /* Util.swift in Sources */,
 				CC8F5283258B47A9006FA98B /* UIFont.swift in Sources */,
+				CC81D2EE25A857F000465659 /* HomeSectionType.swift in Sources */,
 				CCC20D75256CFC4A0063845A /* BaseViewController.swift in Sources */,
 				CCF1B409257A2AA4009E1237 /* Logger.swift in Sources */,
 				CC8F5149257F6ED5006FA98B /* Environment.swift in Sources */,
@@ -504,6 +572,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CCC20D23256CF3C80063845A /* Base */,
+				CC9DC0DC2590517C00C5D313 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -512,6 +581,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CCC20D28256CF3CC0063845A /* Base */,
+				CC9DC0DD2590517D00C5D313 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -523,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -596,7 +667,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yangguang.iOSCommonTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msinsuranceTest.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -647,6 +718,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -720,7 +792,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yangguang.iOSCommonTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msinsuranceTest.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -771,6 +843,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -838,7 +911,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yangguang.iOSCommonTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msinsuranceTest.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -889,6 +962,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -953,6 +1027,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1020,7 +1095,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yangguang.iOSCommonTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msinsuranceTest.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1034,13 +1109,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D87763W6VV;
 				INFOPLIST_FILE = iOSCommonTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yangguang.iOSCommonTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msinsuranceTest.cn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

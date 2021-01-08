@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import AVFoundation
+import Photos
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         print("didFinishLaunchingWithOptions!")
+        print("NSHomeDirectory=\(NSHomeDirectory())")
         print("device-\(UIScreen.main)")
         let infoDic = Bundle.main.infoDictionary
         print("App---\(infoDic?["CFBundleIdentifier"])---\(infoDic?["CFBundleDisplayName"])---\(infoDic?["CFBundleName"])")
@@ -25,6 +28,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("Release!!!!")
         #endif
         
+        if #available(iOS 14, *) {
+            PHPhotoLibrary.requestAuthorization(for: .readWrite) { (status) in
+                
+            }
+        } else {
+            // Fallback on earlier versions
+        }
+        
+        AVCaptureDevice.requestAccess(for: .video) { (isGranted) in
+            
+        }
+        
+        let backgroundTime = UserDefaults.standard.object(forKey: "preference_background_time")
+        let sliderValue = UserDefaults.standard.object(forKey: "slider_preference")
+        let enableValue = UserDefaults.standard.object(forKey: "enabled_preference")
+        let nameValue = UserDefaults.standard.object(forKey: "name_preference")
+        let versionValue = UserDefaults.standard.object(forKey: "preference_version")
+        //UserDefaults.standard.setValue("1.1.1", forKey: "preference_version")
+        //UserDefaults.standard.synchronize()
+        UserDefaults.standard.removeObject(forKey: "preference_version")
+        
+        let groupValue = UserDefaults.standard.object(forKey: "preference_version")
         
         return true
     }

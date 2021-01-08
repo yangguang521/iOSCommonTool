@@ -12,6 +12,7 @@ class EnvironmentViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.navigationItem.title = "环境选择"
         
     }
 
